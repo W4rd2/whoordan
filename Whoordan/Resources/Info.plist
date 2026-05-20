@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BGTaskSchedulerPermittedIdentifiers</key>
+	<array>
+		<string>com.w4rd2.whoordan.refresh</string>
+	</array>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>Whoordan</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Whoordan</string>
+	<key>CFBundlePackageType</key>
+	<string>$(PRODUCT_BUNDLE_PACKAGE_TYPE)</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>com.w4rd2.whoordan.auth</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>whoordan</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>Whoordan checks Bluetooth permission on launch and only connects to compatible wearable devices you choose after approval.</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>Whoordan checks Bluetooth permission on launch and only connects to compatible wearable devices you choose after approval.</string>
+	<key>NSHealthShareUsageDescription</key>
+	<string>Whoordan does not import Apple Health data and requests no Apple Health read types.</string>
+	<key>NSHealthUpdateUsageDescription</key>
+	<string>Whoordan writes supported source-labeled wellness samples to Apple Health after you grant permission. Data stays on this device unless you separately enable cloud sync.</string>
+	<key>SUPABASE_PROJECT_ID</key>
+	<string>$(SUPABASE_PROJECT_ID)</string>
+	<key>WHOORDAN_SUPABASE_PUBLISHABLE_KEY</key>
+	<string>$(WHOORDAN_SUPABASE_PUBLISHABLE_KEY)</string>
+	<key>WHOORDAN_SUPABASE_URL</key>
+	<string>$(WHOORDAN_SUPABASE_URL)</string>
+	<key>UIApplicationSupportsIndirectInputEvents</key>
+	<true/>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>bluetooth-central</string>
+		<string>fetch</string>
+		<string>processing</string>
+	</array>
+	<key>UILaunchScreen</key>
+	<dict>
+		<key>UIColorName</key>
+		<string></string>
+	</dict>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+</dict>
+</plist>

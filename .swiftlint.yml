@@ -1,0 +1,99 @@
+included:
+  - Whoordan
+  - WhoordanTests
+  - WhoordanUITests
+  - Tools
+
+baseline: .swiftlint-baseline.json
+
+excluded:
+  - build
+  - DerivedData
+  - ios
+  - android
+  - .dart_tool
+  - .codex-home
+  - .codex-capability-audit
+
+analyzer_rules:
+  - unused_declaration
+  - unused_import
+
+opt_in_rules:
+  - array_init
+  - closure_end_indentation
+  - closure_spacing
+  - collection_alignment
+  - contains_over_filter_count
+  - contains_over_filter_is_empty
+  - contains_over_first_not_nil
+  - empty_collection_literal
+  - empty_count
+  - empty_string
+  - explicit_init
+  - first_where
+  - flatmap_over_map_reduce
+  - last_where
+  - literal_expression_end_indentation
+  - lower_acl_than_parent
+  - modifier_order
+  - multiline_arguments
+  - multiline_function_chains
+  - multiline_parameters
+  - operator_usage_whitespace
+  - overridden_super_call
+  - private_action
+  - private_outlet
+  - redundant_nil_coalescing
+  - sorted_first_last
+  - toggle_bool
+  - unneeded_parentheses_in_closure_argument
+  - vertical_parameter_alignment_on_call
+  - yoda_condition
+
+disabled_rules:
+  - todo
+
+line_length:
+  warning: 140
+  error: 180
+  ignores_comments: true
+  ignores_urls: true
+  ignores_function_declarations: true
+
+file_length:
+  warning: 900
+  error: 1600
+  ignore_comment_only_lines: true
+
+type_body_length:
+  warning: 500
+  error: 900
+
+function_body_length:
+  warning: 80
+  error: 130
+
+cyclomatic_complexity:
+  warning: 12
+  error: 20
+
+identifier_name:
+  min_length:
+    warning: 2
+  excluded:
+    - id
+    - hr
+    - p1
+    - p2
+    - x
+    - y
+
+nesting:
+  type_level:
+    warning: 2
+  function_level:
+    warning: 3
+
+force_cast: error
+force_try: warning

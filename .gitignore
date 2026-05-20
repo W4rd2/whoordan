@@ -1,0 +1,103 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+**/.DS_Store
+__pycache__/
+**/__pycache__/
+.pytest_cache/
+**/.pytest_cache/
+.venv/
+**/.venv/
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code
+#.vscode/
+
+# Xcode user state
+*.xcuserstate
+**/xcuserdata/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Generated files
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+ios/Flutter/Flutter.podspec
+ios/Flutter/ephemeral/
+ios/.symlinks/
+ios/Pods/
+ios/Runner.xcworkspace/xcuserdata/
+ios/Runner/GeneratedPluginRegistrant.h
+ios/Runner/GeneratedPluginRegistrant.m
+android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio build artifacts
+/android/app/debug
+/android/app/profile
+/android/app/release
+/android/.gradle/
+android/local.properties
+android/key.properties
+
+# Secrets
+*.env
+.env*
+config.local.*
+lib/core/services/api_client_local.dart
+
+# Web build/dependency artifacts
+node_modules/
+web/node_modules/
+web/.next/
+web/out/
+web/coverage/
+
+# Private iOS signing and distribution artifacts
+*.ipa
+*.xcarchive
+*.mobileprovision
+*.provisionprofile
+*.p12
+*.cer
+ExportOptions.plist
+release-storage/
+web/release-storage/
+
+# Claude Code
+.claude/
+
+# Private wearable research local artifacts
+whoordan-ble-payloads-only.md
+private_wearable_research/
